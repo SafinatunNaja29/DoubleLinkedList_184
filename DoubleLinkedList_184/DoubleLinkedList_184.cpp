@@ -39,3 +39,8 @@ void DoubleLinkedList::addNode() {
 	Node* newNode = new Node();		//step 1
 	newNode->NoMhs = nim;			//step2
 	newNode->name = nm;				//step 2
+
+	/*insert a node in the beginning of a doubly - linked list*/
+	if (START == NULL || nim <= START->NoMhs) {
+		if (START != NULL && nim == START->NoMhs) {
+		
