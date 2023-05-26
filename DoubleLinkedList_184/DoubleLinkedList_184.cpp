@@ -117,3 +117,7 @@ void DoubleLinkedList::traverse() {
 		}
 	}
 }
+
+void DoubleLinkedList::revtraverse() {
+	
+}
