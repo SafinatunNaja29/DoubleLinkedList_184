@@ -58,3 +58,7 @@ void DoubleLinkedList::addNode() {
 	Node* current = START;			//step 1.a
 	Node* previous = NULL;			//step 1.b
 	while (current->next != NULL && current->next->NoMhs < nim)
+	{
+		previous = current;			//step 1.d
+		current = current->next;	//step 1.e
+	}
